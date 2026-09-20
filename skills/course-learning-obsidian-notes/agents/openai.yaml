@@ -1,0 +1,3 @@
+interface:
+  display_name: "课程学习与 Obsidian 笔记"
+  short_description: "深度讲解课程材料并生成结构化 Obsidian 课堂笔记"
