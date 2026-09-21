@@ -1,0 +1,4 @@
+interface:
+  display_name: "Obsidian 概念永久笔记"
+  short_description: "生成可长期复用、可正确折叠答案的 Obsidian 概念笔记"
+  default_prompt: "Use $obsidian-concept-notes to explain this concept and create an Obsidian permanent note."
