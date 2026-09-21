@@ -88,3 +88,45 @@ skills/obsidian-concept-notes
 ```
 
 也可以直接提出符合相应用途的请求，由 Codex 自动选择合适的 Skill。
+
+## programming-course-obsidian-notes
+
+用于把一组编程课程 PPT、PDF、讲义、课堂截图或代码材料，整理成适合长期复学和快速查阅的中文 Obsidian 笔记。
+
+这个 Skill 面向“以后忘了也能很快重新学会”的使用场景。它不会机械复述幻灯片，而是先完整检查课程材料，再按照概念关系重新组织知识。
+
+主要能力：
+
+- 每份课程材料生成一篇独立的 `Lesson NN - 主题.md` 笔记；
+- 默认排除课件案例、练习、项目要求和考试导向内容；
+- 保留概念、语法、参数、返回值、运行结果、使用场景、易错点和代码速查；
+- 使用简短、可独立理解的代码示例解释知识，不复制复杂课堂案例；
+- 统一多节课程的文件名、YAML Properties、标签和 Wiki 链接；
+- 为整套课程生成目录笔记，并可选生成 Obsidian Base 索引；
+- 检查代码围栏、旧文件名、未解析链接和 Base 收录结果。
+
+适合：
+
+- 将一整个文件夹中的编程课程 PPT 分别整理成笔记；
+- 建立 Python、Java、C++ 等课程的长期学习资料库；
+- 把课堂材料整理成“自学教材 + 代码说明书 + 快速查询手册”；
+- 在几个月后通过代码速查和重新学习总结快速恢复记忆。
+
+仓库中的源目录：
+
+```text
+skills/programming-course-obsidian-notes
+```
+
+安装到个人 Skills 目录：
+
+```text
+~/.codex/skills/programming-course-obsidian-notes
+```
+
+调用示例：
+
+```text
+使用 $programming-course-obsidian-notes，把这个文件夹里的编程课程 PPT
+分别整理成 Obsidian 笔记，并生成课程目录和 Base 索引。
+```

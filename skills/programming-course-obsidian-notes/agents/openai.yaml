@@ -1,0 +1,4 @@
+interface:
+  display_name: "编程课程 Obsidian 笔记"
+  short_description: "把编程课件整理成可长期复学的 Obsidian 笔记"
+  default_prompt: "Use $programming-course-obsidian-notes to turn these programming course materials into durable Obsidian notes."
