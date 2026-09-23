@@ -15,6 +15,14 @@ Read [references/course-note-workflow.md](references/course-note-workflow.md) co
 - Save a real UTF-8 Markdown file in the requested Vault location when filesystem access permits. Preserve the user's existing folders and naming conventions.
 - Do not invent missing metadata. Use unknown as required by the reference.
 
+## Concept-link invariant
+
+- Before finalizing a lecture note, inspect the course's existing `concept` folder when it is available.
+- In `# 核心知识`, add a wikilink at a concept's first occurrence when either the matching Concept note already exists or the concept is important, reusable, and worth becoming a future Concept note. Use aliases such as `[[伪随机码|PRN 码]]` when the displayed lecture term differs from the Concept filename.
+- A missing Concept file is not a blocker: create the meaningful `[[待建概念]]` link and leave the note content for the user to add later. Do not automatically create the Concept file unless the user asks.
+- Link only the first occurrence in `# 核心知识`; do not repeatedly link the same concept throughout that section.
+- Keep the entire `# 🔑 关键词` table as plain text. Do not place wikilinks in its keyword, explanation, or related-knowledge cells.
+
 ## Collapsible answer invariant
 
 Final notes must render reference answers as a collapsed Obsidian callout:
